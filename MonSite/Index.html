@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends - Tous les Champions</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">League of Legends</div>
+        <div class="navbar-links">
+            <a href="Index.html" class="nav-button">Accueil</a>
+            <a href="Collection.html" class="nav-button">Ma Collection</a>
+        </div>
+    </nav>
+
+    <header class="banner">
+        <div class="banner-content">
+            <h1>League of Legends</h1>
+            <p>Explorez tous les champions</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="filter-section">
+            <button onclick="filterCards('all')" class="filter-button">Tous</button>
+            <button onclick="filterCards('Tank')" class="filter-button">Tank</button>
+            <button onclick="filterCards('Assassin')" class="filter-button">Assassin</button>
+            <button onclick="filterCards('Mage')" class="filter-button">Mage</button>
+            <button onclick="filterCards('Combattant')" class="filter-button">Combattant</button>
+            <button onclick="filterCards('Tireur')" class="filter-button">Tireur</button>
+        </section>
+
+        <section class="card-grid" id="championCards">
+            <!-- Liste des 20 champions avec chemins d'image ajustés -->
+
+
+            <div class="card Combattant">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Aatrox.jpg" alt="Aatrox">
+                    </div>
+                    <div class="card-back">
+                        <p>Aatrox, Epée des Darkin.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Mage">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Ahri.jpg" alt="Ahri">
+                    </div>
+                    <div class="card-back">
+                        <p>Ahri, renard a neuf queues.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Assassin">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Akali.jpg" alt="Akali">
+                    </div>
+                    <div class="card-back">
+                        <p>Akali, l'assassin rebelle.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Tireur">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Akshan.jpg" alt="Akshan">
+                    </div>
+                    <div class="card-back">
+                        <p>Akshan, sentinelle rebelle.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Tank">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Alistar.jpg" alt="Alistar">
+                    </div>
+                    <div class="card-back">
+                        <p>Alistar, le Minotaure.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Tank">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Amumu.jpg" alt="Amumu">
+                    </div>
+                    <div class="card-back">
+                        <p>Amumu, la momie mélancolique.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Mage">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Anivia.jpg" alt="Anivia">
+                    </div>
+                    <div class="card-back">
+                        <p>Anivia, le cryophénix.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Mage">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Annie.jpg" alt="Annie">
+                    </div>
+                    <div class="card-back">
+                        <p>Annie, enfant des ténèbres.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Tireur">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Aphelios.jpg" alt="Aphelios">
+                    </div>
+                    <div class="card-back">
+                        <p>Aphelios, arme des Lunaris.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Tireur">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Ashe.jpg" alt="Ashe">
+                    </div>
+                    <div class="card-back">
+                        <p>Ashe, archère de glace.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Mage">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Aurelion_Sol.jpg" alt="Aurelion Sol">
+                    </div>
+                    <div class="card-back">
+                        <p>Aurelion Sol, forgeur d'étoiles.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Mage">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Aurora.jpg" alt="Aurora">
+                    </div>
+                    <div class="card-back">
+                        <p>Aurora, sorcière d'entre les mondes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Mage">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Azir.jpg" alt="Azir">
+                    </div>
+                    <div class="card-back">
+                        <p>Azir, empereur des sables.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Mage">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Bard.jpg" alt="Bard">
+                    </div>
+                    <div class="card-back">
+                        <p>Bard, gardien errant.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Combattant">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/BelVeth.jpg" alt="Bel'Veth">
+                    </div>
+                    <div class="card-back">
+                        <p>Bel'Veth, impératrice du néant.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Mage">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Blitzcrank.jpg" alt="Blitzcrank">
+                    </div>
+                    <div class="card-back">
+                        <p>Blitzcrank, golem de vapeur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Mage">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Brand.jpg" alt="Brand">
+                    </div>
+                    <div class="card-back">
+                        <p>Brand, vengeur flamboyant.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Tank">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Braum.jpg" alt="Braum">
+                    </div>
+                    <div class="card-back">
+                        <p>Braum, cœur de Freljord.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Combattant">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Briar.jpg" alt="Briar">
+                    </div>
+                    <div class="card-back">
+                        <p>Briar, Faim Insatiable.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card Tireur">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="Images/Illustration/Caitlyn.jpg" alt="Caitlyn">
+                    </div>
+                    <div class="card-back">
+                        <p>Caitlyn, shérif de Piltover.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Achilleas-Degrave Evan - IIM</p>
+    </footer>
+
+    <script>
+        function filterCards(role) {
+            const cards = document.querySelectorAll('.card');
+            cards.forEach(card => {
+                if (role === 'all' || card.classList.contains(role)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
